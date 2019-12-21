@@ -1,0 +1,31 @@
+body{
+    display: flex;
+}
+aside{
+    width: 18%;
+    border: 1px black solid;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+  }
+li a{
+    color: #4EC9DF;
+}
+li :hover{
+    color: #36B7CE;
+}
+.fa, .fab, .fab{
+font-size: 1.5em;
+margin-bottom: 1em;
+}
+.content{
+    flex:1;
+    border: 1px red solid;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+article{
+}
